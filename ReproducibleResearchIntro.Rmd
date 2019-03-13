@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 2. Get a GitHub account
 3. Set up a new Github repo
 4. Create a new Rmarkdown project
-
+5. 
 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
