@@ -13,6 +13,23 @@ output:
 
 ---
 
+# Data management & Reproducible research
+## What is it?
+
+## Reproducible Research
+If most researchers think this is important,   
+why are we not working reproducibly?   
+
+What are the obstacles?   
+
+> **Think-Pair-Share**   
+> http://www.socrative.com  
+> Student login, Room Name :AHREN
+
+
+
+
+
 
 # Fritiof Nilsson Piraten
 
@@ -26,19 +43,20 @@ knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
     background-image: "Presentation/images/RavlundaKyrka.jpg"
 ## *History & Tombstone*
 
-# Data management & Reproducible research
-## What is it?
-
-## Reproducible Research
-If most researchers thinks this is important, why is it not more commonly done?   
-   
-What are the obstacles?   
-
-*Think-Pair-Share
-
-http://www.socrative.com
-
-
+## Procrastination
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+*I will add a picture for this later....   
 
 # What does Science tells us?
 
@@ -69,8 +87,9 @@ Change is scary!
 
 ## feaR
 R: Remoteness from Values
-Easy to loose goal and purpose   
-"Why am I even doing this?"
+- Easy to loose goal and purpose   
+- "Why am I even doing this?"
+- Loosing sight of the goal
 
 # Can we overcome procrastination?
 ## Can we overcome procrastination?
@@ -90,4 +109,28 @@ Note: *Shape up!* does not help!
 # Our friend Fritiof
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
+```
+
+# How to succeed?
+## It is all about you!
+- Find ways that works for you
+- Recognise your favourite excuse
+_ Resist the temptation
+- Move in small steps  
+- Set goals that are realistic
+- 
+
+## Use peer pressure (in a positive way)
+- Share github repos!
+- Meet and discuss your research projects
+- Be the spearhead of change in your respective groups!  
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/spearhead.jpg")
+```
+
+# 
+## Conquer the FEAR!
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/FEAR.png")
 ```
