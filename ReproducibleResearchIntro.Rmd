@@ -8,8 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# How to become your own best collaborator
 
-# Setting up the project
+## Setting up the project
 
 ## Important steps
 1. Install R and R Studio if you have not done this previously.
@@ -19,12 +20,16 @@ knitr::opts_chunk$set(echo = TRUE)
 5. Create your first R markdown file
 6. Edit the documment 
 7. Save & commit to Github
+8. 
 
+```{r}
 
+source("./getwd.R")
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## 
+
 
 ```{r cars}
 summary(cars)

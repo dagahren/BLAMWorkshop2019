@@ -1,0 +1,93 @@
+---
+title: "BLAM 2019 Workshop"
+author: "Dag Ahrén"
+date: "March 2019"
+
+output: 
+  revealjs::revealjs_presentation:
+    fig_width: 3
+    transition: concave
+    theme: serif
+    highlight: pygments
+
+
+---
+
+
+# Fritiof Nilsson Piraten
+
+## Fritiof Nilsson Piraten
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
+```
+
+## Translation
+    background-image: "Presentation/images/RavlundaKyrka.jpg"
+## *History & Tombstone*
+
+# Data management & Reproducible research
+## What is it?
+
+## Reproducible Research
+If most researchers thinks this is important, why is it not more commonly done?   
+   
+What are the obstacles?   
+
+*Think-Pair-Share
+
+http://www.socrative.com
+
+
+
+# What does Science tells us?
+
+## 
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/FEAR.png")
+```
+
+## Fear
+F: Fusion
+"Bad thoughts about failure"   
+"I can not do this"   
+"It is too hard"   
+"It will take me to long time"   
+
+## fEar
+E: Excessive Goals
+- We get excited and want to change all NOW!   
+- This leads to to unrealistic expectations & high risk of failure   
+- Hard to keep up longterm   
+
+## feAr
+A: Avoidance of Discomfort
+All types of change will feel uncomfortable and unfamiliar at first
+Avoiding discomfort, taking the easy way out (=no change)
+Change is scary!
+
+## feaR
+R: Remoteness from Values
+Easy to loose goal and purpose   
+"Why am I even doing this?"
+
+# Can we overcome procrastination?
+## Can we overcome procrastination?
+
+Note: *Shape up!* does not help!
+
+
+
+# My thoughts on Data management
+## My thoughts on Data management 
+-> Acknowledge the procrastination psychology 
+-> Set realistic goals
+-> A small step forward is progress!
+-> Set deadline
+-> Share and help each other & give positive feedback (e.g. github repo)
+
+# Our friend Fritiof
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
+```
