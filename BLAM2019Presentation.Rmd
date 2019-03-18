@@ -15,6 +15,15 @@ output:
 
 # Data management & Reproducible research
 ## What is it?
+NSF definition from Goodman et al (Science 2016):
+*Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.*   
+
+Do we agree?
+
+Perhaps we should be talking about "Methods Reproducibility"
+
+> It is not the truth, or even an approximation of truth
+> Reproducing the same bias/mistake = same (wrong) results
 
 ## Reproducible Research
 If most researchers think this is important,   
@@ -32,16 +41,34 @@ What are the obstacles?
 
 
 # Fritiof Nilsson Piraten
+## Fritiof Nilsson Piraten
+<section style="text-align: left;">
+   
+   
+- Born 1895 in Vollsjö, Skåne  
+- Lund University 1914-1918  
+- Lawyer & Book writer  
+
+
+</section>
 
 ## Fritiof Nilsson Piraten
+
 
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
 ```
 
 ## Translation
-    background-image: "Presentation/images/RavlundaKyrka.jpg"
-## *History & Tombstone*
+<section style="text-align: left;">
+**Approximate translation:**   
+Here under are the ashes of a man who had the habit of postponing everything to tomorrow.   
+However, he bettered himself on his last day in life, and actually died on the 31st of Jan 1972.
+</section>
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
+```
 
 ## Procrastination
 <br>
@@ -58,7 +85,12 @@ knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
 <br>
 *I will add a picture for this later....   
 
-# What does Science tells us?
+## Procrastination
+
+> http://www.socrative.com  
+> Student login, Room Name :AHREN
+
+# What does Science say?
 
 ## 
 
@@ -67,58 +99,70 @@ knitr::include_graphics("Presentation/images/FEAR.png")
 ```
 
 ## Fear
-F: Fusion
-"Bad thoughts about failure"   
+**F: Fusion**
+- Fusing the topic with bad thoughts about failure:   
 "I can not do this"   
 "It is too hard"   
-"It will take me to long time"   
+"It will take me too long time"   
 
 ## fEar
-E: Excessive Goals
-- We get excited and want to change all NOW!   
-- This leads to to unrealistic expectations & high risk of failure   
-- Hard to keep up longterm   
+**E: Excessive Goals**
+- We get excited and want to change everything immediately    
+This leads to to unrealistic expectations and a high risk of failure!   
+ Hard to keep up long term   
 
 ## feAr
-A: Avoidance of Discomfort
-All types of change will feel uncomfortable and unfamiliar at first
-Avoiding discomfort, taking the easy way out (=no change)
-Change is scary!
+**A: Avoidance of Discomfort**
+- All types of change will feel uncomfortable and unfamiliar at first   
+Avoiding discomfort, taking the easy way out (=no change)   
+Change is scary!   
 
 ## feaR
-R: Remoteness from Values
+**R: Remoteness from Values**
 - Easy to loose goal and purpose   
-- "Why am I even doing this?"
-- Loosing sight of the goal
+"Why am I even doing this?"
 
 # Can we overcome procrastination?
 ## Can we overcome procrastination?
 
-Note: *Shape up!* does not help!
+Note: *Get organised!* does not help!
 
+How did the comments in Socrative fit with **FEAR** acronym?
 
 
 # My thoughts on Data management
 ## My thoughts on Data management 
--> Acknowledge the procrastination psychology 
--> Set realistic goals
--> A small step forward is progress!
--> Set deadline
--> Share and help each other & give positive feedback (e.g. github repo)
 
-# Our friend Fritiof
+>- Acknowledge the procrastination psychology   
+>- Set realistic goals but do set them   
+>- A small step forward is progress!   
+>- Set deadline    
+>- Share and help each other & give positive feedback (e.g. github repo)   
+
+```{r, echo=FALSE, out.width='40%', fig.align='left'}
+knitr::include_graphics("Presentation/images/github-logo.jpg")
+```
+
+
+# Our friend Fritiof Nilsson Piraten
+## Procrastination
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
 ```
 
 # How to succeed?
+## How to succeed?
+> **Think-Pair-Share**   
+> http://www.socrative.com  
+> Student login, Room Name :AHREN
+
 ## It is all about you!
-- Find ways that works for you
+- Find ways that work for you and stick to them
 - Recognise your favourite excuse
-_ Resist the temptation
-- Move in small steps  
-- Set goals that are realistic
-- 
+_ Resist the temptation of procrastination  
+- Move in small steps   
+- Set goals that are realistic   
+
 
 ## Use peer pressure (in a positive way)
 - Share github repos!

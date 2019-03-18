@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 6. Edit the documment 
 7. Save & commit to Github
 
+
 ```{r}
 
 source("./getwd.R")
