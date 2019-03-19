@@ -147,9 +147,11 @@ Note: *Get organised!* does not help!
 
 Possibly discuss (if time allows)
 - 
-# Lets get to work!
-## Project and File structure
-**Time: 5 minutes plus time for sharing**   
+# Lets get to work!   
+
+## Project and File structure   
+
+**Time: 10 minutes plus time for sharing**   
 
 - Make a mind map to visualise the process of one of your projects.   
   Be as detailed as you can regarding files needed and produced. Is external data required?   
@@ -158,6 +160,17 @@ Possibly discuss (if time allows)
   Include files, folder structure, project structure and external resources required   
   
   - Put the two pieces of paper up for viewing by others.
+
+## Peer input   
+
+- Update your project and file structure based on the discussions.
+- Start RStudio and make a new project, make sure that the check box for git is checked   
+
+<img class="plain" src="Presentation/images/rstudioCreateProject.png"; style="max-width:300px;float:left;">   
+<img class="plain" src="Presentation/images/rstudioNewProject.png"; style="max-width:300px;float:center;">   
+
+## Make directories in the Rstudio project
+
 
 ## My take on a strategy
 
@@ -187,13 +200,19 @@ I always add the following directories/folders into the project directory:
   I like to number them to get a nice order
   
 ## Docs
-
+  Put documentation (e.g Rmarkdown, Notes etc)   
+  
 ## Scripts
-
+  Scripts, such as sbatch, bash, R scripts etc   
+  
 ## Progs
+  Store software installed locally, also keep source code
 
 <img class="plain" src="Presentation/images/ProjectStructure.png"; style="max-width:400px;float:center;">
 
+# Suggested reading:
+- Ten simple rules for Reproducible Computational Research (Sandve *et al*, 2013)
+- 
 
 # Procrastination revisited
 
