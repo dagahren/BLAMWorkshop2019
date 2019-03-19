@@ -5,12 +5,14 @@ date: "March 2019"
 
 output: 
   revealjs::revealjs_presentation:
-    fig_width: 3
+
     transition: concave
     theme: serif
     highlight: pygments
-
-
+    reveal_options:
+      fig_width: 5
+      fig_height: 3
+      slideNumber: true
 ---
 
 # Data management & Reproducible research
@@ -54,10 +56,7 @@ What are the obstacles?
 
 ## Fritiof Nilsson Piraten
 
-
-```{r, echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
-```
+<img class="plain" src="Presentation/images/PiratensGravstenRavlunda.jpg"; style="max-width:400px;float:center;">
 
 ## Translation
 <section style="text-align: left;">
@@ -66,9 +65,7 @@ Here under are the ashes of a man who had the habit of postponing everything to 
 However, he bettered himself on his last day in life, and actually died on the 31st of Jan 1972.
 </section>
 
-```{r, echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
-```
+<img class="plain" src="Presentation/images/RavlundaKyrka.jpg""; style="max-width:600px;float:center;">
 
 ## Procrastination
 <br>
@@ -83,7 +80,8 @@ knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
 <br>
 <br>
 <br>
-*I will add a picture for this later....   
+*I will add a picture for this later...
+<img class="plain" src="Presentation/images/wink-smiley.png"; style="max-width:40px;">
 
 ## Procrastination
 
@@ -94,9 +92,7 @@ knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
 
 ## 
 
-```{r, echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics("Presentation/images/FEAR.png")
-```
+<img class="plain" src="Presentation/images/FEAR.png"; style="max-width:1200px;float:center;">
 
 ## Fear
 **F: Fusion**
@@ -127,7 +123,7 @@ Change is scary!
 
 Note: *Get organised!* does not help!
 
-How did the comments in Socrative fit with **FEAR** acronym?
+## How did the comments in Socrative fit with **FEAR** acronym?
 
 
 # My thoughts on Data management
@@ -139,16 +135,67 @@ How did the comments in Socrative fit with **FEAR** acronym?
 >- Set deadline    
 >- Share and help each other & give positive feedback (e.g. github repo)   
 
-```{r, echo=FALSE, out.width='40%', fig.align='left'}
-knitr::include_graphics("Presentation/images/github-logo.jpg")
-```
+<img class="plain" src="Presentation/images/github-logo.jpg"; style="max-width:120px;float:center;">
+
+# Comments?
+## What will I try to cover   
+
+- Project and File structure
+- File names
+- Version control
+- Dos & Don'ts
+
+Possibly discuss (if time allows)
+- 
+# Lets get to work!
+## Project and File structure
+**Time: 5 minutes plus time for sharing**   
+
+- Make a mind map to visualise the process of one of your projects.   
+  Be as detailed as you can regarding files needed and produced. Is external data required?   
+  
+- How would you like to structure this project? Draw a management plan on a new piece of paper.   
+  Include files, folder structure, project structure and external resources required   
+  
+  - Put the two pieces of paper up for viewing by others.
+
+## My take on a strategy
+
+- Totally fine if you have another strategy,  
+  but remember that chaos does not count as a strategy!!   
+  
+## Project
+
+- Good descriptive name of project, e.g ArcticMetatranscriptome   
+- Include information about the goal and reasoning for the project  *README*    
+   
+   
+I always add the following directories/folders into the project directory:   
+   
+- Data   
+- Analysis   
+- Docs   
+- Scripts   
+- Progs   
+
+##  Data
+  Read-only, raw data and meta data   
+  This is an exact **COPY** of the data at the start of the project   
+     
+##  Analysis
+  Make a separate folder for each of the steps in the analysis
+  I like to number them to get a nice order
+  
+## Docs
+
+## Scripts
+
+## Progs
+
+<img class="plain" src="Presentation/images/ProjectStructure.png"; style="max-width:400px;float:center;">
 
 
-# Our friend Fritiof Nilsson Piraten
-## Procrastination
-```{r, echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
-```
+# Procrastination revisited
 
 # How to succeed?
 ## How to succeed?
