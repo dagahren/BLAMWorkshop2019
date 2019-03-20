@@ -282,9 +282,11 @@ Save the changes, click the Git tab on the top right window -> commit -> push
 
 >- In your graphical interface (Finder for Mac, Explorer for Windows)   
 >- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
+>- commit and push your updated files (check the files you want to commit)
 
 ## Share your repo
 In Github repo: -> Settings -> Collaborators -> Search by email of Github username
+Take turns to work on each others repo and test to pull the changes to your local repo
 
 ## Recommendations
 - Commit on a regular basis, ideally when one set of work has been performed and tested.
