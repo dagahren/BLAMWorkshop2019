@@ -33,8 +33,8 @@ why are we not working reproducibly?
 
 What are the obstacles?   
 
-> **Think-Pair-Share**   
-> http://www.socrative.com  
+> **Think-Pair-Share (5 min) **   
+> http://www.socrative.com  1
 > Student login, Room Name :AHREN
 
 
@@ -84,8 +84,8 @@ However, he bettered himself on his last day in life, and actually died on the 3
 <img class="plain" src="Presentation/images/wink-smiley.png"; style="max-width:40px;">
 
 ## Procrastination
-
-> http://www.socrative.com  
+**How is your work affected by procrastination? (5 min)**
+> http://www.socrative.com  2 & 3   
 > Student login, Room Name :AHREN
 
 # What does Science say?
@@ -133,7 +133,7 @@ Note: *Get organised!* does not help!
 >- Set realistic goals but do set them   
 >- A small step forward is progress!   
 >- Set deadline    
->- Share and help each other & give positive feedback (e.g. github repo)   
+>- Share and help each other & give positive feedback (e.g. github repo)    
 >-  <img class="plain" src="Presentation/images/github-logo.jpg"; style="max-width:3000px;float:center;">
 
 # Comments?
@@ -188,8 +188,6 @@ Note: *Get organised!* does not help!
 - Include information about the goal and reasoning for the project  *README*    
    
    
-I always add the following directories/folders into the project directory:   
-   
 - Data   
 - Analysis   
 - Docs   
@@ -199,10 +197,6 @@ I always add the following directories/folders into the project directory:
 ##  Data
   Read-only, raw data and meta data   
   This is an exact **COPY** of the data at the start of the project   
-     
-##  Analysis
-  Make a separate folder for each of the steps in the analysis
-  I like to number them to get a nice order
   
 ## Docs
   Put documentation (e.g Rmarkdown, Notes etc)   
@@ -211,8 +205,11 @@ I always add the following directories/folders into the project directory:
   Scripts, such as sbatch, bash, R scripts etc   
   
 ## Progs
-  Store software installed locally, also keep source code
-
+  Store software installed locally, also keep source code   
+  
+##  Analysis
+  Make a separate folder for each of the steps in the analysis
+  I like to number them to get a nice order
 <img class="plain" src="Presentation/images/ProjectStructure.png"; style="max-width:400px;float:center;">
 
 ## Suggested reading:
@@ -265,7 +262,7 @@ Create a new Github repo for this workhop
 *Check the box initialize this repository with a README*
 
 ## RStudio project
-- File-> New Project -> Version Control -> Git
+- File-> New Project -> Version Control -> Git   
 Paste in the git hyperlink found on the github repo page under 
 Clone or download-> SSH
 
@@ -285,6 +282,8 @@ Save the changes, click the Git tab on the top right window -> commit -> push
 >- In your graphical interface (Finder for Mac, Explorer for Windows)   
 >- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
 
+## Share your repo
+In Github repo: -> Settings -> Collaborators -> Search by email of Github username
 
 ## Recommendations
 - Commit on a regular basis, ideally when one set of work has been performed and tested.
@@ -296,7 +295,7 @@ Save the changes, click the Git tab on the top right window -> commit -> push
 # How to succeed?
 ## How to succeed?
 > **Think-Pair-Share**   
-> http://www.socrative.com  
+> http://www.socrative.com  4
 > Student login, Room Name :AHREN
 
 ## It is all about you!
