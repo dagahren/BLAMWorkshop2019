@@ -149,8 +149,8 @@ Possibly discuss (if time allows)
 - 
 # Lets get to work!   
 
-## Project and File structure   
-
+# Project and File structure   
+## Project and File structure  
 **Time: 10 minutes plus time for sharing**   
 
 - Make a mind map to visualise the process of one of your projects.   
