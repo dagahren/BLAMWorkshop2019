@@ -267,7 +267,8 @@ Paste in the git hyperlink found on the github repo page under
 Clone or download-> SSH
 
 - Update your project and file structure based on the discussions from your peers.
-Save the changes, click the Git tab on the top right window -> commit -> push  
+Save the changes, click the Git tab on the top right window -> commit -> push    
+<img class="plain" src="Presentation/images/rstudioCreateProject.png"; style="max-width:300px;float:left;">   
 
 ## Alternatively you can do it from RStudio (let not bother for now)
 - Start RStudio and make a new project, make sure that the check box for git is checked   
