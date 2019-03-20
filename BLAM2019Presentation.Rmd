@@ -137,16 +137,31 @@ Note: *Get organised!* does not help!
 >-  <img class="plain" src="Presentation/images/github-logo.jpg"; style="max-width:3000px;float:center;">
 
 # Comments?
-## What will I try to cover   
+## What I aim to cover   
 
-- Project and File structure
 - File names
+- Project and File structure
 - Version control
 - Dos & Don'ts
 
-Possibly discuss (if time allows)
-- 
-# Lets get to work!   
+## Possibly discuss (if time allows and you are interested)
+*Note: I am not expert in all these topics*
+
+- Backups   
+- Programming tips   
+- Containers   
+- Workflows and pipelines   
+
+# The technical bits!   
+# File names
+## File names
+>- Use extentions to guide you (.txt .csv .fastq)
+>- Name files so that it is easy to understand and describe where it comes from (AT1_R1_trimmed.fq)
+>- Avoid any label that implies order relative to other files (Final1.txt UltraFinal.txt This_is_my_Final_Final_version2.txt)
+
+## File names
+
+<img class="plain" src="Presentation/images/xkcdFilename.png"; style="max-width:300px;float:center;">
 
 # Project and File structure   
 ## Project and File structure  
@@ -172,10 +187,9 @@ Possibly discuss (if time allows)
 
 ## Make directories in the Rstudio project
 - Create a directory structure using your favourite system:   
->-In your graphical interface (Finder for Mac, Explorer for Windows)   
->-mkdir in terminal (BTW, this can be done inside of RStudio as well)   
 
-
+>- In your graphical interface (Finder for Mac, Explorer for Windows)   
+>- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
 
 
 ## My take on a strategy
@@ -218,21 +232,46 @@ I always add the following directories/folders into the project directory:
 
 <img class="plain" src="Presentation/images/ProjectStructure.png"; style="max-width:400px;float:center;">
 
-# Suggested reading:
+## Suggested reading:
 - Ten simple rules for Reproducible Computational Research (Sandve *et al*, 2013)
-- 
-## So you have made a Project and File structure
 
-** Now what?**
+
+## So you have a Project and File structure
+   
+**Now what?**
 
 # Version control
 ## Git & Github
-- What is Git 
+*What is Git?*   
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+   
+<BR>
+    
+*What is GitHub?*  
+GitHub is a web page were git repositories can be shared. It is a essentially social platform for code. Good for most things that fit with Git.
 
-- What is GitHub
+## Git is distributed
+<img class="plain" src="Presentation/images/centralisedVersionControl.png"; style="max-width:400px;float:center;">
+<img class="plain" src="Presentation/images/distributedVersionControl.png"; style="max-width:400px;float:center;">
+
 
 ## Useful links
 https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
+
+## Basic git workflow
+
+<img class="plain" src="Presentation/images/git+workflow_fullwidth.png"; style="max-width:600px;float:center;">
+
+## Shortlist of the most useful terms in git
+> stage (add)   
+> commit    
+> push   
+
+> pull   
+> clone   
+> branch   
+
+
 
 # Dos and don´ts
 
