@@ -161,7 +161,7 @@ Note: *Get organised!* does not help!
 
 ## File names
 
-<img class="plain" src="Presentation/images/xkcdFilename.png"; style="max-width:300px;float:center;">
+<img class="plain" src="Presentation/images/xkcdFilename.png"; style="max-width:400px;float:center;">
 
 # Project and File structure   
 ## Project and File structure  
@@ -174,23 +174,6 @@ Note: *Get organised!* does not help!
   Include files, folder structure, project structure and external resources required   
   
   - Put the two pieces of paper up for viewing by others.
-
-## Project Setup   
-
-- Update your project and file structure based on the discussions from your peers.
-
-- Start RStudio and make a new project, make sure that the check box for git is checked   
->File -> New Project -> New Directory -> Empty Project
-
-<img class="plain" src="Presentation/images/rstudioCreateProject.png"; style="max-width:300px;float:left;">   
-<img class="plain" src="Presentation/images/rstudioNewProject.png"; style="max-width:300px;float:center;">   
-
-## Make directories in the Rstudio project
-- Create a directory structure using your favourite system:   
-
->- In your graphical interface (Finder for Mac, Explorer for Windows)   
->- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
-
 
 ## My take on a strategy
 
@@ -272,11 +255,41 @@ https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
 > branch   
 
 
+## Github Setup   
+Sign up to Github
+https://github.com/
 
-# Dos and don´ts
+Create a new Github repo for this workhop   
+*Give the repo the name of your project*
 
-> http://www.socrative.com  
-> Student login, Room Name :AHREN
+*Check the box initialize this repository with a README*
+
+## RStudio project
+- File-> New Project -> Version Control -> Git
+Paste in the git hyperlink found on the github repo page under 
+Clone or download-> SSH
+
+- Update your project and file structure based on the discussions from your peers.
+Save the changes, click the Git tab on the top right window -> commit -> push  
+
+## Alternatively you can do it from RStudio (let not bother for now)
+- Start RStudio and make a new project, make sure that the check box for git is checked   
+>File -> New Project -> New Directory -> Empty Project
+
+<img class="plain" src="Presentation/images/rstudioCreateProject.png"; style="max-width:300px;float:left;">   
+<img class="plain" src="Presentation/images/rstudioNewProject.png"; style="max-width:300px;float:center;">   
+
+## Make directories in the Rstudio project
+- Create a directory structure using your favourite system:   
+
+>- In your graphical interface (Finder for Mac, Explorer for Windows)   
+>- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
+
+
+## Recommendations
+- Commit on a regular basis, ideally when one set of work has been performed and tested.
+- Write short descriptive comments to each commit
+- 
 
 # Procrastination revisited
 
