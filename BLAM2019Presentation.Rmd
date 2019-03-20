@@ -6,7 +6,7 @@ date: "March 2019"
 output: 
   revealjs::revealjs_presentation:
 
-    transition: concave
+    transition: fade
     theme: serif
     highlight: pygments
     reveal_options:
