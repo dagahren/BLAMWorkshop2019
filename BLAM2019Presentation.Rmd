@@ -134,8 +134,7 @@ Note: *Get organised!* does not help!
 >- A small step forward is progress!   
 >- Set deadline    
 >- Share and help each other & give positive feedback (e.g. github repo)   
-
-<img class="plain" src="Presentation/images/github-logo.jpg"; style="max-width:120px;float:center;">
+>-  <img class="plain" src="Presentation/images/github-logo.jpg"; style="max-width:3000px;float:center;">
 
 # Comments?
 ## What will I try to cover   
@@ -161,15 +160,22 @@ Possibly discuss (if time allows)
   
   - Put the two pieces of paper up for viewing by others.
 
-## Peer input   
+## Project Setup   
 
-- Update your project and file structure based on the discussions.
+- Update your project and file structure based on the discussions from your peers.
+
 - Start RStudio and make a new project, make sure that the check box for git is checked   
+>File -> New Project -> New Directory -> Empty Project
 
 <img class="plain" src="Presentation/images/rstudioCreateProject.png"; style="max-width:300px;float:left;">   
 <img class="plain" src="Presentation/images/rstudioNewProject.png"; style="max-width:300px;float:center;">   
 
 ## Make directories in the Rstudio project
+- Create a directory structure using your favourite system:   
+>-In your graphical interface (Finder for Mac, Explorer for Windows)   
+>-mkdir in terminal (BTW, this can be done inside of RStudio as well)   
+
+
 
 
 ## My take on a strategy
@@ -177,6 +183,8 @@ Possibly discuss (if time allows)
 - Totally fine if you have another strategy,  
   but remember that chaos does not count as a strategy!!   
   
+<img class="plain" src="Presentation/images/MessyDesk.jpg"; style="max-width:400px;float:center;">    
+
 ## Project
 
 - Good descriptive name of project, e.g ArcticMetatranscriptome   
@@ -213,6 +221,23 @@ I always add the following directories/folders into the project directory:
 # Suggested reading:
 - Ten simple rules for Reproducible Computational Research (Sandve *et al*, 2013)
 - 
+## So you have made a Project and File structure
+
+** Now what?**
+
+# Version control
+## Git & Github
+- What is Git 
+
+- What is GitHub
+
+## Useful links
+https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
+
+# Dos and don´ts
+
+> http://www.socrative.com  
+> Student login, Room Name :AHREN
 
 # Procrastination revisited
 
@@ -239,7 +264,7 @@ _ Resist the temptation of procrastination
 knitr::include_graphics("Presentation/images/spearhead.jpg")
 ```
 
-# 
+# ...
 ## Conquer the FEAR!
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics("Presentation/images/FEAR.png")
