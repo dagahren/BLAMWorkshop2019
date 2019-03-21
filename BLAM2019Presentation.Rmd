@@ -92,7 +92,7 @@ However, he bettered himself on his last day in life, and actually died on the 3
 
 ## 
 
-<img class="plain" src="Presentation/images/FEAR.png"; style="max-width:1200px;float:center;">
+<img class="plain" src="Presentation/images/FEAR.png"; style="max-width:800px;float:center;">
 
 ## Fear
 **F: Fusion**
@@ -320,6 +320,4 @@ knitr::include_graphics("Presentation/images/spearhead.jpg")
 
 # ...
 ## Conquer the FEAR!
-```{r, echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics("Presentation/images/FEAR.png")
-```
+<img class="plain" src="Presentation/images/FEAR.png"; style="max-width:800px;float:center;">
