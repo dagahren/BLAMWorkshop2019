@@ -317,7 +317,7 @@ _ Resist the temptation of procrastination
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics("Presentation/images/spearhead.jpg")
 ```
-
+# Adding a header
 # ...
 ## Conquer the FEAR!
 <img class="plain" src="Presentation/images/FEAR.png"; style="max-width:800px;float:center;">
