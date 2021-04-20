@@ -1,0 +1,362 @@
+---
+title: "iBLAM 2021 Workshop"
+author: "Dag Ahrén"
+date: "April 2021"
+
+output: 
+  revealjs::revealjs_presentation:
+
+    transition: fade
+    theme: serif
+    highlight: pygments
+    reveal_options:
+      fig_width: 5
+      fig_height: 3
+      slideNumber: true
+---
+
+# Data management & Reproducible research
+## What is it?
+NSF definition from Goodman et al (Science 2016):
+*Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.*   
+
+Do we agree?
+
+Perhaps we should be talking about "Methods Reproducibility"
+
+> It is not the truth, or even an approximation of truth
+> Reproducing the same bias/mistake = same (wrong) results
+
+## Reproducible Research
+If most researchers think this is important,   
+why are we not working reproducibly?   
+
+What are the obstacles?   
+
+> **Think-Pair-Share (5 min) **   
+> http://www.socrative.com  1
+> Student login, Room Name :AHREN
+
+
+
+
+
+
+# Fritiof Nilsson Piraten
+## Fritiof Nilsson Piraten
+<section style="text-align: left;">
+   
+   
+- Born 1895 in Vollsjö, Skåne  
+- Lund University 1914-1918  
+- Lawyer & Book writer  
+
+
+</section>
+
+## Fritiof Nilsson Piraten
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/PiratensGravstenRavlunda.jpg")
+```
+
+## Translation
+<section style="text-align: left;">
+**Approximate translation:**   
+Here under are the ashes of a man who had the habit of postponing everything to tomorrow.   
+However, he bettered himself on his last day in life, and actually died on the 31st of Jan 1972.
+</section>
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
+```
+
+## Procrastination
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+*I will add a picture for this later...
+
+```{r, echo=FALSE, out.width='5%', fig.align='center'}
+knitr::include_graphics("Presentation/images/wink-smiley.png")
+```
+
+
+## Procrastination
+**How is your work affected by procrastination? (5 min)**
+> http://www.socrative.com  2 & 3   
+> Student login, Room Name :AHREN
+
+# What does Science say?
+
+## 
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/FEAR.png")
+```
+
+## Fear
+**F: Fusion**
+- Fusing the topic with bad thoughts about failure:   
+"I can not do this"   
+"It is too hard"   
+"It will take me too long time"   
+
+## fEar
+**E: Excessive Goals**
+- We get excited and want to change everything immediately    
+This leads to to unrealistic expectations and a high risk of failure!   
+ Hard to keep up long term   
+
+## feAr
+**A: Avoidance of Discomfort**
+- All types of change will feel uncomfortable and unfamiliar at first   
+Avoiding discomfort, taking the easy way out (=no change)   
+Change is scary!   
+
+## feaR
+**R: Remoteness from Values**
+- Easy to loose goal and purpose   
+"Why am I even doing this?"
+
+# Can we overcome procrastination?
+## Can we overcome procrastination?
+
+Note: *Get organised!* does not help!
+
+## How did the comments in Socrative fit with **FEAR** acronym?
+
+
+# My thoughts on Data management
+## My thoughts on Data management 
+
+>- Acknowledge the procrastination psychology   
+>- Set realistic goals but do set them   
+>- A small step forward is progress!   
+>- Set deadline    
+>- Share and help each other & give positive feedback (e.g. github repo)    
+
+```{r, echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics("Presentation/images/github-logo.jpg")
+```
+
+# Comments?
+## What I aim to cover   
+
+- File names
+- Project and File structure
+- Version control
+- Dos & Don'ts
+
+## Possibly discuss (if time allows and you are interested)
+*Note: I am not expert in all these topics*
+
+- Backups   
+- Programming tips   
+- Containers   
+- Workflows and pipelines   
+
+# The technical bits!   
+# File names
+## File names
+>- Use extentions to guide you (.txt .csv .fastq)
+>- Name files so that it is easy to understand and describe where it comes from (AT1_R1_trimmed.fq)
+>- Avoid any label that implies order relative to other files (Final1.txt UltraFinal.txt This_is_my_Final_Final_version2.txt)
+
+## File names
+
+```{r, echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics("Presentation/images/xkcdFilename.png")
+```
+
+# Project and File structure   
+## Project and File structure  
+**Time: 10 minutes plus time for sharing**   
+
+- Make a mind map to visualise the process of one of your projects.   
+  Be as detailed as you can regarding files needed and produced. Is external data required?   
+  
+- How would you like to structure this project? Draw a management plan on a new piece of paper.   
+  Include files, folder structure, project structure and external resources required   
+  
+  - Put the two pieces of paper up for viewing by others.
+
+## My take on a strategy
+
+- Totally fine if you have another strategy,  
+  but remember that chaos does not count as a strategy!!   
+  
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/MessyDesk.jpg")
+```
+
+
+## Project
+
+- Good descriptive name of project, e.g ArcticMetatranscriptome   
+- Include information about the goal and reasoning for the project  *README*    
+   
+   
+- Data   
+- Analysis   
+- Docs   
+- Scripts   
+- Progs   
+
+##  Data
+  Read-only, raw data and meta data   
+  This is an exact **COPY** of the data at the start of the project   
+  
+## Docs
+  Put documentation (e.g Rmarkdown, Notes etc)   
+  
+## Scripts
+  Scripts, such as sbatch, bash, R scripts etc   
+  
+## Progs
+  Store software installed locally, also keep source code   
+  
+##  Analysis
+  Make a separate folder for each of the steps in the analysis
+  I like to number them to get a nice order
+  
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/ProjectStructure.png")
+```
+
+
+## Suggested reading:
+- Ten simple rules for Reproducible Computational Research (Sandve *et al*, 2013)
+
+
+## So you have a Project and File structure
+   
+**Now what?**
+
+# Version control
+## Git & Github
+*What is Git?*   
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+   
+<BR>
+    
+*What is GitHub?*  
+GitHub is a web page were git repositories can be shared. It is a essentially social platform for code. Good for most things that fit with Git.
+
+## Git is distributed
+```{r, echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics("Presentation/images/centralisedVersionControl.png")
+```
+```{r, echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics("Presentation/images/distributedVersionControl.png")
+```
+
+
+## Useful links
+https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
+
+## Basic git workflow
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/git+workflow_fullwidth.png")
+```
+
+## Shortlist of the most useful terms in git
+> stage (add)   
+> commit    
+> push   
+
+> pull   
+> clone   
+> branch   
+
+
+## Github Setup   
+Sign up to Github
+https://github.com/
+
+Create a new Github repo for this workhop   
+*Give the repo the name of your project*
+
+*Check the box initialize this repository with a README*
+
+# Atom
+- How many installed Atom?
+
+## RStudio project
+- File-> New Project -> Version Control -> Git   
+Paste in the git hyperlink found on the github repo page under 
+Clone or download-> SSH
+
+- Update your project and file structure based on the discussions from your peers.
+Save the changes, click the Git tab on the top right window -> commit -> push    
+
+```{r, echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics("Presentation/images/rstudioCreateProject.png")
+```
+
+## Alternatively you can do it from RStudio (let not bother for now)
+- Start RStudio and make a new project, make sure that the check box for git is checked   
+>File -> New Project -> New Directory -> Empty Project
+
+```{r, echo=FALSE, out.width='35%', fig.align='center'}
+knitr::include_graphics("Presentation/images/rstudioCreateProject.png")
+```
+
+```{r, echo=FALSE, out.width='35%', fig.align='center'}
+knitr::include_graphics("Presentation/images/rstudioNewProject.png")
+```
+
+
+## Make directories in the Rstudio project
+- Create a directory structure using your favourite system:   
+
+>- In your graphical interface (Finder for Mac, Explorer for Windows)   
+>- mkdir in terminal (BTW, this can be done inside of RStudio as well)   
+>- commit and push your updated files (check the files you want to commit)
+
+## Share your repo
+In Github repo: -> Settings -> Collaborators -> Search by email of Github username
+Take turns to work on each others repo and test to pull the changes to your local repo
+
+## Recommendations
+- Commit on a regular basis, ideally when one set of work has been performed and tested.
+- Write short descriptive comments to each commit
+- 
+
+# Procrastination revisited
+
+# How to succeed?
+## How to succeed?
+> **Think-Pair-Share**   
+> http://www.socrative.com  4
+> Student login, Room Name :AHREN
+
+## It is all about you!
+- Find ways that work for you and stick to them
+- Recognise your favourite excuse
+_ Resist the temptation of procrastination  
+- Move in small steps   
+- Set goals that are realistic   
+
+
+## Use peer pressure (in a positive way)
+- Share github repos!
+- Meet and discuss your research projects
+- Be the spearhead of change in your respective groups!  
+
+```{r, echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics("Presentation/images/spearhead.jpg")
+```
+# Adding a header
+# ...
+## Conquer the FEAR!
+<img class="plain" src="Presentation/images/FEAR.png"; style="max-width:800px;float:center;">
