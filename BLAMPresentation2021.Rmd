@@ -81,9 +81,6 @@ knitr::include_graphics("Presentation/images/RavlundaKyrka.jpg")
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 *I will add a picture for this later...
 
 ```{r, echo=FALSE, out.width='5%', fig.align='center'}
@@ -179,7 +176,6 @@ knitr::include_graphics("Presentation/images/xkcdFilename.png")
 
 # Project and File structure   
 ## Project and File structure  
-**Time: 10 minutes plus time for sharing**   
 
 - Make a mind map to visualise the process of one of your projects.   
   Be as detailed as you can regarding files needed and produced. Is external data required?   
@@ -260,9 +256,6 @@ knitr::include_graphics("Presentation/images/distributedVersionControl.png")
 ```
 
 
-## Useful links
-https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
-
 ## Basic git workflow
 
 ```{r, echo=FALSE, out.width='70%', fig.align='center'}
@@ -324,7 +317,7 @@ knitr::include_graphics("Presentation/images/rstudioNewProject.png")
 >- commit and push your updated files (check the files you want to commit)
 
 ## Share your repo
-In Github repo: -> Settings -> Collaborators -> Search by email of Github username
+In Github repo: -> Settings -> Manage Access -> Invite a collaborator: Search by email of Github username
 Take turns to work on each others repo and test to pull the changes to your local repo
 
 ## Recommendations
